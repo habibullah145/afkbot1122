@@ -1,6 +1,6 @@
 {
-	"ip":"newsmp145.aternos.me",
-	"port": "25565",
+	"ip":"135.181.219.171",
+	"port": "25598",
 	"name": "afkbot1",
-	"auto-night-skip":"true"
+	"auto-night-skip":"false"
 }
