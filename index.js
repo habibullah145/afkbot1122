@@ -9,8 +9,8 @@ var connected = 0;
 var actions = [ 'forward', 'back', 'left', 'right']
 var lastaction;
 var pi = 3.14159;
-var moveinterval = 2; // 2 second movement interval
-var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
+var moveinterval = 20; // 2 second movement interval
+var maxrandom = 50; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
 var username = data["name"]
 var nightskip = data["auto-night-skip"]
@@ -35,7 +35,7 @@ bot.on('login',function(){
 bot.on('time', function(time) {
 	if(nightskip == "true"){
 	if(bot.time.timeOfDay >= 13000){
-	bot.chat('/time set day')
+	bot.chat('/time')
 	}}
     if (connected <1) {
         return;
