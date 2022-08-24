@@ -3,9 +3,7 @@
 	"port": "25598",
 	"name": "afkbot1",
         "auto-night-skip":"false"
-	"login-enabled":"true",
-	"register-cmd":"/register (habibullah) (habibullah)",
-	"login-cmd":"/login (habibullah)"
+	
 	
 }
 
